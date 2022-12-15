@@ -41,7 +41,7 @@
 
 ### Setup
 
-1. Clone this project on your local machine using the following command on your Git Bash: `git clone `
+1. Clone this project on your local machine using the following command on your Git Bash: `git clone https://github.com/arabiu033/enumerables.git`
 
 2. Browse to project directory `cd enumerable`
 
