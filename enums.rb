@@ -1,33 +1,25 @@
 module MyEnumerable
-  
-  def all? (&block)
+  def all?(&block)
     rtn = true
-    each { |e|
-      if (block.call(e) == false)
-        rtn = false
-      end
-    } 
-    return rtn 
+    each do |e|
+      rtn = false if block.call(e) == false
+    end
+    rtn
   end
 
   def any?(&block)
     rtn = false
     each do |e|
-      if (block.call(e))
-        rtn = true
-      end
+      rtn = true if block.call(e)
     end
-    return rtn
+    rtn
   end
 
   def filter(&block)
     result = []
     each do |e|
-      if (block.call(e))
-        result.push e
-      end
+      result.push e if block.call(e)
     end
-    return result
+    result
   end
-
 end
