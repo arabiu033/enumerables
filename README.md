@@ -22,7 +22,11 @@
 # Enumerable
 
 
-**Enumerable** is a simple app built with ruby.
+> **Enumerable** is a replicate of standard ruby enumerables.
+> The following enumerables functions are replicated from scratch
+> - filter
+> - any?
+> - all?
 
 ## Built With
 
@@ -43,7 +47,7 @@
 
 1. Clone this project on your local machine using the following command on your Git Bash: `git clone https://github.com/arabiu033/enumerables.git`
 
-2. Browse to project directory `cd enumerable`
+2. Browse to project directory `cd enumerables`
 
 3. Run `bundle install` to install the dependencies
 
@@ -52,7 +56,7 @@
 
 In the project directory, you can run:
 
-- `ruby morse.rb`
+- `ruby enums
 
   Runs the app on your bash
 
@@ -61,6 +65,11 @@ In the project directory, you can run:
   Launches the test runner.
 
 ## Authors
+
+👤 **Aminu Rabiu**
+
+- GitHub: [@arabiu033](https://github.com/arabiu033)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/larabiu033)
 
 👤 **Amine**
 
