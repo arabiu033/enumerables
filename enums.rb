@@ -8,7 +8,7 @@ module MyEnumerable
   end
 
   def any?(&block)
-    rtn = false
+    rtn = true
     each do |e|
       rtn = true if block.call(e)
     end
